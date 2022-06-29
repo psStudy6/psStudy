@@ -9,7 +9,7 @@
 ### 스터디 참여 인원
 * [김민석]()
 * [김소람]()
-* [김우진]()
+* [김우진](https://github.com/dnwlsrla40)
 * [김유미](https://github.com/gkfgran5037)
 * [신형록]()
 * [정진홍]()
