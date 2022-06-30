@@ -37,7 +37,7 @@ public class Main {
 			    english.put(String.valueOf((char)codeNumber), countChar(X, ascCode[i-97]));
         }
 
-		    /* 확인1
+	/* 확인1
         for(Entry<String, Integer> entry : english.entrySet()) {
         	System.out.println("확인 1 : [Key] : " + entry.getKey() + "  |  [value] : " + entry.getValue());
         }
@@ -66,7 +66,6 @@ public class Main {
 		    return answer;
 	}
 
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Main M = new Main();
 		Scanner in = new Scanner(System.in);
@@ -80,7 +79,7 @@ public class Main {
 			}
 			X += tmp;
 		}
-    in.close();
+                in.close();
     
 		System.out.println(M.solution(X));
 	}
