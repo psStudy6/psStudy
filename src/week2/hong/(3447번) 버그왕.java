@@ -26,7 +26,7 @@ public class Main {
 
             sb.append(s + "\n");
         }
-
+ 
         bw.write(sb.toString());
         bw.close();
         br.close();
