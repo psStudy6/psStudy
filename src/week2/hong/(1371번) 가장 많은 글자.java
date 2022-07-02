@@ -85,4 +85,34 @@ public class Main {
 	}
 }
 
+// ============= △ 실패.. ================================= ▽ 성공 ========================== //
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        StringBuilder sb = new StringBuilder();
+        char[] arr = new char[26]; // CheckPoint1. 소문자 알파벳은 26자
+        int max = 0;
+	
+	// CheckPoint2. 몇개의 데이터가 들어올지 모르기 때문에 반복문
+        while(in.hasNextLine()) {
+            char[] input = in.nextLine().toCharArray();
+            for (int i = 0; i < input.length; i++)
+		
+		// CheckPoint3. 공백을 제외한 나머지를 카운트
+                if (input[i] != ' ')
+                    max = Math.max(max, ++arr[input[i] - 'a']);
+        }
+	in.close();
+ 	
+        for (int i = 0; i < arr.length; i++)
+            if(arr[i] == max) sb.append((char)('a' + i));
+ 	
+	// CheckPoint4. 위에서 선언한 StringBuilder에 넣어주고 OS에 맞는 개행 문자를 리턴
+        sb.append(System.lineSeparator());
+        System.out.println(sb.toString());
+    }
+}
 
