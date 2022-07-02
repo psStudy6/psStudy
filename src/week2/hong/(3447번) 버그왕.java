@@ -23,12 +23,35 @@ public class Main {
             while (s.contains("BUG")) {
                 s = s.replaceAll("BUG", "");
             }
-
+ 
             sb.append(s + "\n");
         }
  
         bw.write(sb.toString());
         bw.close();
         br.close();
+    }
+}
+
+// ================================================================================== //
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String [] args){
+        Main main = new Main();
+        Scanner in = new Scanner(System.in);
+        
+        // CheckPoint1. 해당 데이터 반복을 통해서 문자 기입
+        while(in.hasNextLine()){
+            String X = in.nextLine();
+            System.out.println(main.solution(X));
+        }
+    }
+    
+    // CheckPoint2. BUG라는 단어가 있을 경우 삭제 시키는 반복문
+    public String solution(String X){
+        while(X.indexOf("BUG") >= 0){ X = X.replace("BUG", ""); }
+        return X;
     }
 }

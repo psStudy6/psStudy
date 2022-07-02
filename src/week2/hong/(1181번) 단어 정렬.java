@@ -52,7 +52,6 @@ public class Main {
 				answer +=  "\n" + X[j];
 			}
 		}
-		
 		return answer;
 	}
 }
