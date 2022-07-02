@@ -23,7 +23,7 @@ public class Main {
             while (s.contains("BUG")) {
                 s = s.replaceAll("BUG", "");
             }
-
+ 
             sb.append(s + "\n");
         }
  
