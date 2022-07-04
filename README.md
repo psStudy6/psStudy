@@ -43,13 +43,13 @@
 
 | 주차 | 주제               | 문제                                                   | 풀이                                           |
 |------|--------------------|--------------------------------------------------------|------------------------------------------------|
-| 1    | String(문자열)     | [그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [김유미](src/week1/yumi/GroupWordChecker.java) |
+| 1    | String(문자열)     | [그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [김유미](src/week1/yumi/GroupWordChecker.java)   |
 |      |                    | []()                                                   | [정진홍]()                                     |
 |      |                    | []()                                                   | [신형록]()                                     |
 | 2    | String(회문문자열) | [단어 정렬](https://www.acmicpc.net/problem/1181)      | [김우진](src/week2/woojin/BoJ1181.java)|
 |      |                    | [비슷한 단어](https://www.acmicpc.net/problem/1411)    | [김우진](src/week2/woojin/BoJ1411.java)|
-|      |                    | [가장 많은 글자](https://www.acmicpc.net/problem/1371) | [정진홍](src/week2/hong/(1371번) 가장 많은 글자.java)|
-|      |                    | [버그왕](https://www.acmicpc.net/problem/3447)         | [정진홍](src/week2/hong/(3447번) 버그왕.java)|
+|      |                    | [가장 많은 글자](https://www.acmicpc.net/problem/1371) | [정진홍](src/week2/hong/(1371번)%가장%많은%글자.java)|
+|      |                    | [버그왕](https://www.acmicpc.net/problem/3447)         | [정진홍](src/week2/hong/(3447번)%버그왕.java)|
 | 3    | Array(1, 2차원 배열) | [ROT13](https://www.acmicpc.net/problem/11655)         | [김소람]()|
 |      |                    | [피보나치 수의 개수](https://www.acmicpc.net/problem/6571) | [김소람]()|
 |      |                    | [접미사 배열](https://www.acmicpc.net/problem/11656) | [김유미]()|
