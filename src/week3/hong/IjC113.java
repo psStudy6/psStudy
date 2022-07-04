@@ -4,38 +4,34 @@
  */
 
 // 강의를 보기전 내 방식 -> ✔️(Success)
-package main;
-
 import java.util.Scanner;
 
-public class BoJ113 {
+public class IjC113 {
 
 	public static void main(String[] args) {
-		  Scanner in = new Scanner(System.in);
+		IjC113 M = new IjC113();
+		Scanner in = new Scanner(System.in);
 
-	        int n = in.nextInt();
-	        int[] arr = new int[n];
+		int n = in.nextInt();
+		int[] arr = new int[n];
 
-	        for (int i = 0; i < n; i++) {
-	            arr[i] = in.nextInt();
-	        }
-
-	        System.out.println(solution(arr));
+		for (int i = 0; i < n; i++) {
+			arr[i] = in.nextInt();
+		}
+		System.out.println(M.solution(arr));
 	}
 
-    public static String solution(int[] arr) {
-        StringBuilder sb = new StringBuilder();
+	public static String solution(int[] arr) {
+		StringBuilder sb = new StringBuilder();
+		sb.append(arr[0]).append(" ");
 
-        sb.append(arr[0]).append(" ");
-
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i-1] < arr[i]) {
-                sb.append(arr[i]).append(" ");
-            }
-        }
-
-        return sb.toString();
-    }
+		for (int i = 1; i < arr.length; i++) {
+			if (arr[i - 1] < arr[i]) {
+				sb.append(arr[i]).append(" ");
+			}
+		}
+		return sb.toString();
+	}
 }
 
 // =============================================================== //
