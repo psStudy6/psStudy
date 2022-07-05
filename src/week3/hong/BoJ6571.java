@@ -47,7 +47,6 @@ public class BoJ6571 {
 		// CheckPoint3. 해당되는 결과값 길이 출력
 		for(long i=0; i<pivo.length; i++) {
 			// System.out.println(pivo[(int) i]);
-
 			if(pivo[(int) i] >= min && pivo[(int) i] <= max) {
 				answer++;
 			}
