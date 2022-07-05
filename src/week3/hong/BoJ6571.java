@@ -26,7 +26,6 @@ public class BoJ6571 {
 				break;
 			}
 		}
-		
 		in.close();
 		// CheckPolong1. 0 0이 들어왓을 때 바로 탈출
 	}
@@ -53,5 +52,4 @@ public class BoJ6571 {
 		}
 		return answer;
 	}
-
 }
