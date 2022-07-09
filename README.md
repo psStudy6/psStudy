@@ -13,7 +13,6 @@
 * [김소람](https://github.com/soram1119)
 * [김우진](https://github.com/dnwlsrla40)
 * [김유미](https://github.com/gkfgran5037)
-* [신형록](https://github.com/hrshins)
 * [정진홍](https://github.com/hongcoding94)
 
 
@@ -83,9 +82,9 @@ Contents : This logic of my method and the side description of the method speaki
 |      |                    | [비슷한 단어](https://www.acmicpc.net/problem/1411)    | [김우진](src/week2/woojin/BoJ1411.java)|
 |      |                    | [가장 많은 글자](https://www.acmicpc.net/problem/1371) | [정진홍](src/week2/hong/(1371번)%20가장%20많은%20글자.java)|
 |      |                    | [버그왕](https://www.acmicpc.net/problem/3447)         | [정진홍](src/week2/hong/(3447번)%20버그왕.java)|
-| 3    | Array(1, 2차원 배열) | [ROT13](https://www.acmicpc.net/problem/11655)         | [김소람]()|
+| 3    | Array(1, 2차원 배열) | [ROT13](https://www.acmicpc.net/problem/11655)         | [김소람](src/week3/soram/BOJ11655.java)|
 |      |                    | [피보나치 수의 개수](https://www.acmicpc.net/problem/6571) | [김소람]()|
-|      |                    | [접미사 배열](https://www.acmicpc.net/problem/11656) | [김유미]()|
-|      |                    | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [김유미]()|
+|      |                    | [접미사 배열](https://www.acmicpc.net/problem/11656) | [김유미](src/week3/yumi/BoJ11656.java)|
+|      |                    | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [김유미](src/week3/yumi/Prg60057.java)|
 
 
