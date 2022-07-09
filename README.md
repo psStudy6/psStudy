@@ -25,7 +25,7 @@
 2. 담당자는 월요일까지 공통문제 2문제씩 정해서 공지합니다.
 3. 스터디원은 토요일까지 인프런 '자바(Java) 알고리즘 문제풀이 : 코딩테스트 대비' 강의를 6개 수강합니다.
 4. 스터디원은 토요일 오전까지 공통문제 및 강의 문제를 푼 후 Pull Request를 합니다.
-5. 스터디장은 요청 내용 확인 후 Merge합니다.
+5. 스터디장/스터디장은 요청 내용 확인 후 Merge합니다.
 6. 담당자는 일요일 스터디 시간에 자신이 맡은 공통 문제의 풀이법을 설명합니다. 
 
 
@@ -76,8 +76,6 @@ Contents : This logic of my method and the side description of the method speaki
 | 주차 | 주제               | 문제                                                   | 풀이                                           |
 |------|--------------------|--------------------------------------------------------|------------------------------------------------|
 | 1    | String(문자열)     | [그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [김유미](src/week1/yumi/GroupWordChecker.java)   |
-|      |                    | []()                                                   | [정진홍]()                                     |
-|      |                    | []()                                                   | [신형록]()                                     |
 | 2    | String(회문문자열) | [단어 정렬](https://www.acmicpc.net/problem/1181)      | [김우진](src/week2/woojin/BoJ1181.java)|
 |      |                    | [비슷한 단어](https://www.acmicpc.net/problem/1411)    | [김우진](src/week2/woojin/BoJ1411.java)|
 |      |                    | [가장 많은 글자](https://www.acmicpc.net/problem/1371) | [정진홍](src/week2/hong/(1371번)%20가장%20많은%20글자.java)|
