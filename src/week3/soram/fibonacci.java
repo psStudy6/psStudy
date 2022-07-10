@@ -15,13 +15,12 @@ public int solution(BigInteger a,BigInteger b){
 	for(int j=2;;j++) {
 		
 		BigInteger result = fibo.get(j-1).add(fibo.get(j-2));
-		if(result.compareTo(b)==1) {//result>b시 arraylist에 저장하지않고 for문 종료
+		if(b.compareTo(result)==-1) {//result>b시 arraylist에 저장하지않고 for문 종료
 			b_num = fibo.size();
 			break;
 		}
 		fibo.add(result);
-		if(result.compareTo(a)==0&&result.compareTo(b)==0)a_num=fibo.size();
-        //result>=a인순간 a_num 입력을 종료
+		if(result.compareTo(a)==-1)a_num=fibo.size();
 	}
 	
 	
@@ -43,7 +42,7 @@ public static void main(String args[]) throws IOException{
   Scanner sc = new Scanner(System.in);
   //BigInteger a = new BigInteger(sc.next());
   //BigInteger b = new BigInteger(sc.next());
-  //ArrayList<Integer> list =new ArrayList<>();
+  ArrayList<Integer> list =new ArrayList<>();
   
   
   
@@ -54,11 +53,13 @@ public static void main(String args[]) throws IOException{
 	  BigInteger b = new BigInteger(st.nextToken());
 	  
 	  if(a.compareTo(BigInteger.valueOf(0))==0&&b.compareTo(BigInteger.valueOf(0))==0) break;
-	  System.out.println(T.solution(a, b));
-	  
+	  list.add(T.solution(a, b));
   }
  
-  
+  for(int i=0;i<list.size();i++) {
+	  System.out.println(list.get(i));
+  }
+
 	sc.close();
 
   
