@@ -1,5 +1,5 @@
 /**
- * 등록 번호 : Samsang
+ * 등록 번호 : 0000
  * 등록 제목 : Samsang
  * 현재 상태 : 미완료 ⚠️
  */
@@ -79,3 +79,4 @@ public class Samsung {
 }
 
 // https://velog.io/@97ben/Java-2%EC%B0%A8%EC%9B%90-%EB%B0%B0%EC%97%B4-4%EB%B0%A9-8%EB%B0%A9-%ED%83%90%EC%83%89
+// https://lifaon.tistory.com/4
