@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 핵심 : 소수의 배수는 소수가 아님
 */
 public class ljC205 {
-	// 방법 1
+	// 방법 1 - Time Limit Exceeded 시간 오래걸림
 	public int solution(int n) {
 		int cnt = 0;
 		for (int i = 2; i <= n; i++) {
@@ -28,11 +28,13 @@ public class ljC205 {
 		return true;
 	}
 	
-	// 방법 2
+	// 방법 2 - 소수의 배수는 소수가 아님
 	public int solution2(int n) {
 		int cnt = 0;
 		int[] arr = new int[n+1];
+		// 0, 1 제외
 		for (int i = 2; i <= n; i++) {
+			// 2의 배수부터 시작
 			if (arr[i] == 0) {
 				cnt++;
 				for (int j = i; j <= n; j=j+i) {
