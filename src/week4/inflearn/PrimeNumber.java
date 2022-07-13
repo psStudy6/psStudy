@@ -3,7 +3,19 @@ import java.util.*;
 //인프런 5.소수(에라토스테네스 체)
 //소수의 정의 : 1과 그 수 자신 이외의 자연수로는 나눌 수 없는 자연수
 class Main {  
-public int solution(int n){//made by me , timeout
+public int solution(int n){//강의 소스
+  int answer = 0;
+  int[] ch = new int[n+1];
+  for(int i=2;i<=n;i++){
+    if(ch[i]==0){
+      answer++;
+      for(int j=1;j<=n;j=j+1) ch[j]=1;
+    }
+  }
+
+
+}  
+public int solution1(int n){//made by me , timeout
 ArrayList<Integer> list = new ArrayList<>();
 int count=0;
 int half;
