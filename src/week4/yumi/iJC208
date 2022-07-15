@@ -1,0 +1,7 @@
+java.util.ConcurrentModificationException
+
+List<Integer> li = scoreli.subList(0, n);
+Collections.sort(scoreli, Collections.reverseOrder());
+
+-> 참조하는 list이 정렬되면서 오류 발생
+	li와 scoreli가 독립된 개체가 아니므로 발생하는 오류
