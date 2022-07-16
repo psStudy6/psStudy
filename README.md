@@ -14,7 +14,7 @@
 * [김우진](https://github.com/dnwlsrla40)
 * [김유미](https://github.com/gkfgran5037)
 * [정진홍](https://github.com/hongcoding94)
-* [이종복](https://github.com/hrshins)
+* [이종복](https://github.com/LeeJongbokz)
 
 
 
