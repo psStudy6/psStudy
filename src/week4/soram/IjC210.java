@@ -1,4 +1,4 @@
-package week.soram;
+package week4.soram;
 import java.util.*;
 //인프런 10.봉우리
 class IjC210 {  
