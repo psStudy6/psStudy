@@ -1,4 +1,4 @@
-package week.soram;
+package week4.soram;
 import java.util.*;
 //인프런 5.소수(에라토스테네스 체)
 //소수의 정의 : 1과 그 수 자신 이외의 자연수로는 나눌 수 없는 자연수
