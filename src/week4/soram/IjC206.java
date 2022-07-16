@@ -1,4 +1,4 @@
-package week.soram;
+package week4.soram;
 import java.util.*;
 //뒤집은 소수
 class IjC206 {  
