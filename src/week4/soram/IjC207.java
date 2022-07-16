@@ -1,4 +1,4 @@
-package week.soram;
+package week4.soram;
 import java.util.Scanner;
 //인프런 7.점수계산
 class IjC207 {  
