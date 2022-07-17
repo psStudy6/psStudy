@@ -84,6 +84,6 @@ Contents : This logic of my method and the side description of the method speaki
 |      |                    | [피보나치 수의 개수](https://www.acmicpc.net/problem/6571) | [김소람](src/week3/soram/fibonacci.java)|
 |      |                    | [접미사 배열](https://www.acmicpc.net/problem/11656) | [김유미](src/week3/yumi/BoJ11656.java)|
 |      |                    | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [김유미](src/week3/yumi/Prg60057.java)|
-| 4    | Array(1, 2차원 배열) | [병든 나이트](https://www.acmicpc.net/problem/1783)   | [이종복]()|
-|      |                    | [참외밭](https://www.acmicpc.net/problem/2477) | [이종복]()|
+| 4    | Array(1, 2차원 배열) | [병든 나이트](https://www.acmicpc.net/problem/1783)   | [이종복](src/week4/jongbok/BoJ1783.java)|
+|      |                    | [참외밭](https://www.acmicpc.net/problem/2477) | [이종복](src/week4/jongbok/BoJ2477.java)|
 
