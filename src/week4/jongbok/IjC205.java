@@ -1,3 +1,4 @@
+package week4.jongbok;
 import java.util.Scanner;
   
 public class Main {
