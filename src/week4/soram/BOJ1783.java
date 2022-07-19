@@ -1,4 +1,4 @@
-package week.soram;
+package week4.soram;
 import java.util.*;
 //맨 왼쪽아래 칸에서 오른쪽으로밖에 이동하지 못한다.
 public class BOJ1783 {
