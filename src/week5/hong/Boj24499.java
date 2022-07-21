@@ -1,7 +1,7 @@
 /**
  * 등록 번호 : 24499번  
  * 등록 제목 : blobyum
- * 현재 상태 : 🧪(진행중)
+ * 현재 상태 : ✔️ (success) 
  */
 
 import java.io.BufferedReader;
@@ -13,6 +13,7 @@ import java.util.LinkedList;
 import java.util.StringTokenizer;
 
 public class BoJ24499 {
+	static void cat(){System.out.print("\\    /\\\n )  ( ')\n(  /  )\n \\(__)|");}
 	/* 시간 초가 및 잘못된 로직
 	public static void main(String[] args) {
 		BoJ24499 M = new BoJ24499();
@@ -119,15 +120,16 @@ public class BoJ24499 {
 	}
 	*/
 	
+	/* 시간 초과
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		String pieAndSum = br.readLine();	// 파이의 총 개수와 더 해야하는 갯수 String
-		String pieCount = br.readLine();	// 파이들의 값
+		//String pieAndSum = br.readLine();	// 파이의 총 개수와 더 해야하는 갯수 String
+		//String pieCount = br.readLine();	// 파이들의 값
 		
-		StringTokenizer st = new StringTokenizer(pieAndSum);
-		StringTokenizer pc = new StringTokenizer(pieCount);
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		StringTokenizer pc = new StringTokenizer(br.readLine());
 
 		int pie = Integer.parseInt(st.nextToken()), sum = Integer.parseInt(st.nextToken());
 		LinkedList<Integer> list = new LinkedList<Integer>();
@@ -150,4 +152,49 @@ public class BoJ24499 {
 		bw.flush();
 		bw.close();
 	}
+	*/
+	public static void main(String[] args) throws IOException {
+		
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String[] n_k = br.readLine().split(" ");
+		String[] tasteArr = br.readLine().split(" ");
+		int p_cnt = Integer.parseInt(n_k[0]);
+		int k_cnt = Integer.parseInt(n_k[1]);
+		
+		long s_time = System.currentTimeMillis();
+		int N = p_cnt;
+		int K = k_cnt;
+		
+		int[] arr = new int[N];
+		for(int idx = 0; idx <arr.length; idx++){
+			//arr[idx] = idx+1;
+			arr[idx] = Integer.parseInt(tasteArr[idx]);
+		}
+		
+		int sum = 0;
+		for(int idx = 0 ; idx <K; idx++){
+			sum += arr[idx];
+		}
+		// System.out.println("0 ~ "+(K-1) +" " + sum); - test
+		int max = sum; 
+		int nextIdx = 0;
+		for(int idx = 1 ; idx <N; idx++){
+			nextIdx = idx + K - 1;
+			if(nextIdx >= N){
+				nextIdx =  nextIdx - N;
+			}
+			sum = sum - arr[idx-1];
+			sum = sum + arr[nextIdx];
+			// System.out.println(idx + " ~ " +nextIdx + " " + sum); - test
+			if(sum > max){
+				max = sum;
+			}
+		}
+		
+		System.out.println(max);
+		long e_time = System.currentTimeMillis();
+		double d_time = (double)(e_time - s_time)/1000;
+		System.out.println("process time : " + d_time);
+	}
+	
 }
