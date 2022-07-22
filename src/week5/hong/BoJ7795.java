@@ -1,7 +1,7 @@
 /**
  * 등록 번호 : 7795번  
  * 등록 제목 : 먹을 것인가 먹힐 것인가
- * 현재 상태 : 🧪(진행중)
+ * 현재 상태 : ✔️ ()
  */
  
 /**
@@ -31,42 +31,91 @@
  * 1
  */
 
-// CheckPoint1. 각각의 리스트를 생성하여 A -> B를 비교하는 로직을 생성?
-// CheckPoint2. 
+package main;
 
-// 상상코딩 中0
-public class BoJ7795{
-  public static void main(String[] args) {
-    BoJ7795 M = new BoJ7795();
-    Scanner in = new Scanner(System.in);
-    
-    int num = in.nextInt();
-    
-    for(int i=0; i<num; i++) {
-      int siteOne = in.nextInt();
-      int siteTwo = in.nextInt();
-    
-      // 리스트 생성
-      int[] listOne = new int[siteOne]; 
-      int[] listTwo = new int[siteTwo];
-      
-      // 두가지 로직을 하나로 합칠수 없을까?
-      for(int j=0; j<siteOne; j++) {
-        listOne[j] = in.nextInt();
-      }
-      
-      for(int k=0; k<siteTwo; k++) {
-        listTwo[k] = in.nextInt();
-      }
-    
-      System.out.println(M.solution(listOne, listTwo));
-  }
-  
-  public int solution(int[] listOne, int[] listTwo) {
-    int answer = 0;
-    
-    return answer;
-  }
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+public class BoJ11719 {
+	static void cat(){System.out.print("\\    /\\\n )  ( ')\n(  /  )\n \\(__)|");}
+	/** 로직 0 / 시간초과 ✔️
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+		
+		int testCaseCount 	= Integer.parseInt(br.readLine());
+		long s_time = System.currentTimeMillis();
+		String[] cntMax = new String[testCaseCount];
+		
+		for(int i=0; i<testCaseCount; i++) {
+			String[] testCase 	= br.readLine().split(" ");
+			int[] sample 		= new int[Integer.parseInt(testCase[0])];
+			int[] pare			= new int[Integer.parseInt(testCase[1])];
+			String[] sampleData = br.readLine().split(" ");
+			String[] pareData 	= br.readLine().split(" ");
+
+			for(int j=0; j<sample.length; j++){
+				sample[j] = Integer.parseInt(sampleData[j]);
+			}
+			for(int k=0; k<pare.length; k++){
+				pare[k] = Integer.parseInt(pareData[k]);
+			}
+
+			int cnt = 0;
+			for(int s=0; s<sample.length; s++) {
+				for(int p=0; p<pare.length; p++) {
+					// System.out.println("sample[s] : " + sample[s] + " / pare[p] : " + pare[p]);
+					if(sample[s] > pare[p]) cnt++;
+				}
+				cntMax[i] = String.valueOf(cnt);
+			}			
+			bw.write(cntMax[i] + " ");
+		}
+		long e_time = System.currentTimeMillis();
+		double d_time = (double)(e_time - s_time)/1000;
+		System.out.println("process time : " + d_time);
+		bw.flush();
+		bw.close();
+	}
+ */
+ 
+  public static void main(String[] args) throws IOException {
+     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+     int testCaseCount = Integer.parseInt(br.readLine());
+     for(int i=0; i<testCaseCount; i++) {
+         StringTokenizer st = new StringTokenizer(br.readLine());
+         int A = Integer.parseInt(st.nextToken());
+         int B = Integer.parseInt(st.nextToken());
+         int[] sample = new int[A];
+         int[] pare = new int[B];
+
+         st = new StringTokenizer(br.readLine());
+         for (int j = 0; j < A; j++) {
+             sample[j] = Integer.parseInt(st.nextToken());
+         }
+
+         st = new StringTokenizer(br.readLine());
+         for(int k=0; k<B; k++) {
+             pare[k] = Integer.parseInt(st.nextToken());
+         }
+
+         Arrays.sort(sample); 
+         Arrays.sort(pare);
+
+         int count = 0;
+         for(int j=0; j<sample.length; j++){
+             for(int k=0; k<pare.length; k++){
+                 if(sample[j]<=pare[k]) {
+                     break;
+                 }
+                 else
+                     count++;
+             }
+         }
+         System.out.println(count);
+     }
+ }
 }
-
-
