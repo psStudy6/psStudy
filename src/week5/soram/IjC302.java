@@ -4,6 +4,7 @@ import java.util.*;
 public class IjC302 {
 	public ArrayList<Integer> solution(int n,int m,int[] a,int[] b){
 		ArrayList<Integer> answer = new ArrayList<>();
+		/**반드시 오름차순 정렬을 해놔야한다. **/
 		Arrays.sort(a);
 		Arrays.sort(b);
 		int p1 =0,p2 = 0;
