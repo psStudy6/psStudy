@@ -1,5 +1,6 @@
 package week5.soram;
 import java.util.*;
+//sliding window O(n^2)->O(n)
 public class IjC304 {
 	public int solution(int n,int m,int[] arr) {
 		int answer = 0,sum = 0,lt=0;
