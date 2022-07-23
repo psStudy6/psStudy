@@ -9,6 +9,7 @@ public class IjC303 {
 		answer=sum;
 		for(int i=k;i<n;i++) {
 			sum+=(arr[i]-arr[i-k]);
+			/**arr[i-k] 은 방금 지나간 창문 자리**/
 			answer=Math.max(answer, sum);
 		}
 		return answer;

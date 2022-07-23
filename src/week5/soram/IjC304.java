@@ -1,5 +1,8 @@
 package week5.soram;
 import java.util.*;
+//sliding window O(n^2)->O(n)
+//lt = left , rt = right
+//N개의 수로 이루어진 수열에서 특정 숫자 M이 되는 경우가 몇 번 있는지 구해라
 public class IjC304 {
 	public int solution(int n,int m,int[] arr) {
 		int answer = 0,sum = 0,lt=0;
