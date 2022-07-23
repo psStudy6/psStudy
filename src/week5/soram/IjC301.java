@@ -1,6 +1,10 @@
 package week5.soram;
 import java.util.*;
 //1.두 배열 합치기(two pointers algorithm)
+//key point : 효율성
+//정렬의 시간복잡도 O(nlogn)
+//배열을 2개 만든 후 pointer p1,p2가 배열의 요소를 0부터 가리키토록한다.
+
 public class IjC301 {
 	public ArrayList<Integer> solution(int n,int m,int[] a,int[] b){
 		ArrayList<Integer> answer = new ArrayList<>();
