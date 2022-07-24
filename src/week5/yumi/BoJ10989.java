@@ -37,11 +37,11 @@ public class BoJ10989 {
 		BoJ10989 boJ = new BoJ10989();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
-    	int[] arr = new int[n];        
-    	for(int i=0; i<n; i++) {
-    	    arr[i] = Integer.parseInt(br.readLine());
+		int[] arr = new int[n];        
+		for(int i=0; i<n; i++) {
+		    arr[i] = Integer.parseInt(br.readLine());
 		}
-    	br.close();
+    		br.close();
 		System.out.println(boJ.solution(arr));
 	}
 }
