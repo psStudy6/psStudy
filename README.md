@@ -86,7 +86,7 @@ Contents : This logic of my method and the side description of the method speaki
 |      |                    | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [김유미](src/week3/yumi/Prg60057.java)|
 | 4    | Array(1, 2차원 배열) | [병든 나이트](https://www.acmicpc.net/problem/1783)   | [이종복](src/week4/jongbok/BoJ1783.java)|
 |      |                    | [참외밭](https://www.acmicpc.net/problem/2477) | [이종복](src/week4/jongbok/BoJ2477.java)|
-| 5    | Two pointers, Sliding window | [blobyum](https://www.acmicpc.net/problem/24499)      | [김우진]()|
-|      | [효율성 : O(n^2)-->O(n)] | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [김우진]()|
+| 5    | Two pointers, Sliding window | [blobyum](https://www.acmicpc.net/problem/24499)      | [김우진](src/week5/woojin/BoJ24499.java)|
+|      | [효율성 : O(n^2)-->O(n)] | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [김우진](src/week5/woojin/BoJ7795.java)|
 |      |                    | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | [정진홍](src/week5/hong/BoJ10989.java)|
 |      |                    | [더하기 사이클](https://www.acmicpc.net/problem/1110)         | [정진홍](src/week5/hong/BoJ1110.java)|
