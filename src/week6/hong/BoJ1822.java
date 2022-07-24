@@ -97,28 +97,28 @@ public class BoJ1822 {
 
 // ========================================== ▽ 통과 로직 ▽ ========================================== //
 
- public static void main(String [] args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        int testCaseA = Integer.parseInt(st.nextToken());
-        int testCaseB = Integer.parseInt(st.nextToken());
-        Set<Integer> setTemp = new TreeSet<>();
+	 public static void main(String [] args) throws Exception {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int testCaseA = Integer.parseInt(st.nextToken());
+		int testCaseB = Integer.parseInt(st.nextToken());
+		Set<Integer> setTemp = new TreeSet<>();
 
-        st = new StringTokenizer(br.readLine());
-        for (int i =0; i < testCaseA; i++) {
-        	setTemp.add(Integer.parseInt(st.nextToken()));
-        }
+		st = new StringTokenizer(br.readLine());
+		for (int i =0; i < testCaseA; i++) {
+			setTemp.add(Integer.parseInt(st.nextToken()));
+		}
 
-        st = new StringTokenizer(br.readLine());
-        for (int i =0; i < testCaseB; i++) {
-            int pare = Integer.parseInt(st.nextToken());
-            if (setTemp.contains(pare))
-            	setTemp.remove(pare);
-        }
+		st = new StringTokenizer(br.readLine());
+		for (int i =0; i < testCaseB; i++) {
+		    int pare = Integer.parseInt(st.nextToken());
+		    if (setTemp.contains(pare))
+			setTemp.remove(pare);
+		}
 
-        System.out.println(setTemp.size());
-        for(int f : setTemp) {
-        	System.out.print(f + " ");
-        }
- }
+		System.out.println(setTemp.size());
+		for(int f : setTemp) {
+			System.out.print(f + " ");
+		}
+	 }
 }
