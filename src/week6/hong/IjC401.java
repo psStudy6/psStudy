@@ -43,7 +43,7 @@ public class IjC401 {
 	}
   */  
   
-	public static void main(String args[]) {
+  public static void main(String args[]) {
         Main main = new Main();
 		    Scanner in = new Scanner(System.in);
         int T = in.nextInt();
@@ -52,11 +52,11 @@ public class IjC401 {
   }
   
   public void solution(int T, String pick) {
-		    int result = 0;
-		    String answer = "";
+    	int result = 0;
+    	String answer = "";
 	
-		    HashMap<Character, Integer> count = new HashMap<Character, Integer>();
-		    Character[] array = new Character[] {'A', 'B', 'C', 'D', 'E'};
+        HashMap<Character, Integer> count = new HashMap<Character, Integer>();
+    	Character[] array = new Character[] {'A', 'B', 'C', 'D', 'E'};
 		
         for(int i=0; i<array.length; i++) {
           count.put(array[i], 0);
