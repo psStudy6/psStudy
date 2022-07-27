@@ -5,7 +5,7 @@
 
 // 강의를 보기전 내 방식 -> ❌ (false)
 
-// =============================================================== //
+// ========================== Two  Pointers =========================== //
 
 package main;
 
@@ -38,3 +38,27 @@ public class IjC305 {
 		return answer;
 	}
 }
+
+// ========================== 수학 =========================== //
+
+public class IjC305 {
+	
+	public static void main(String[] arfs) {
+		IjC305 T = new IjC305();
+		Scanner kb = new Scanner(System.in);
+		int n = kb.nextInt();
+
+		System.out.print(T.soultion(n));
+	}
+	
+	public int solution(int n) {
+		int answer = 0, cnt = 1;
+		n--;
+		while(n > 0){
+			cnt++;
+			n = n-cnt;
+			if(n % cnt == 0) answer++;
+		}
+	}
+}
+		
