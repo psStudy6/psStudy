@@ -1,11 +1,12 @@
 /**
- * 문제 제목 : 029. 최대 길이 연속부분수열(복합적 문제)
+ * 문제 제목 : 034. 학급 회장(영상 후반 HashMap 추가설명)
  * 강의 시청 : ✔️
  */
 
 // 강의를 보기전 내 방식 -> ✔️ (Success)
 package main;
 
+import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -45,7 +46,7 @@ public class IjC401 {
   
   public static void main(String args[]) {
         Main main = new Main();
-		    Scanner in = new Scanner(System.in);
+	 Scanner in = new Scanner(System.in);
         int T = in.nextInt();
         String pick = in.next();
         System.out.println(main.solution(n, pick));
