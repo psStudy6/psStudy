@@ -41,35 +41,32 @@ public class IjC402 {
 }
 
 // =============================================================== //
-import java.util.Scanner;
 
-public class Main{
-  public ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
-    ArrayList<Integer> answer = new ArrayList<>();
-    int p1=0, p2=0;
-    while(p1<n && p2<m) {
-      if(a[p1]<b[p2])answer.add(a[p1++]);
-      else answer.add(b[p2++])
-    }
-    while(p1<n) answer.add(a[p1++]);
-    while(p2<m) answer.add(a[p2++]);
-    
-    return answer;
-  }
-  
-  public static void main(String[] args) {
-    Main T = new Main(); 
-    Scanner kb = new Scanner(System.in);
-    int n = kb.nextInt();
-    int[] a = new int[n];
-    for(int i=0; i<n; i++) {
-      a[i] = kb.nextInt();
-    }
-    int m = kb.nextInt();
-    int[] a = new int[m];
-    for(int i=0; i<m; i++) {
-      a[i] = kb.nextInt();
-    }
-    for(int x: T.solution(n, m, a, b)) System.out.println(x + " ");
-  }
+import java.util.*;
+
+public class Main {
+	public String solution(String str1, String str2) {
+		String answer = "NO";
+		HashMap<Character, Integer> map = new HashMap<>();
+		HashMap<Character, Integer> map2 = new HashMap<>();
+		for (char x : str1.toCharArray()) {
+			map.put(x, map.getOrDefault(x, 0) + 1);
+		}
+		for (char x : str2.toCharArray()) {
+			map2.put(x, map2.getOrDefault(x, 0) + 1);
+		}
+		if (map.equals(map2)) {
+			return "YES";
+		} else
+			return answer;
+
+	}
+
+	public static void main(String[] args) {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		String str1 = kb.next();
+		String str2 = kb.next();
+		System.out.println(T.solution(str1, str2));
+	}
 }
