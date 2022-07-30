@@ -17,11 +17,8 @@ public class Solution {
 		set.add(nums[i]);
 	}
       
-        if(number < set.size()) {
-	  answer = number;
-        } else {
-	  answer = set.size();
-        }    
+        if(number < set.size()) { answer = number; } 
+	else { answer = set.size(); }    
         return answer;
     }
 }
