@@ -10,18 +10,19 @@ import java.util.*;
 public class Solution {
     public int solution(int[] nums) {
         int answer = 0;
-		int number = nums.length/2;
+	int number = nums.length/2;
 
-		HashSet<Integer> set = new HashSet<Integer>();
-		for(int i=0; i<nums.length; i++) {
-			set.add(nums[i]);
-		}
+	HashSet<Integer> set = new HashSet<Integer>();
+	for(int i=0; i<nums.length; i++) {
+		set.add(nums[i]);
+	}
       
-		if(number < set.size()) {
-      answer = number;
-    }	else {
-      answer = set.size();
-    }
-		return answer;
+        if(number < set.size()) {
+	  answer = number;
+        } else {
+	  answer = set.size();
+        }
+	    
+        return answer;
     }
 }
