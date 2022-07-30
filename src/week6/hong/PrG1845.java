@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Solution {
     public int solution(int[] nums) {
-        int answer = 0;
+      	int answer = 0;
 	int number = nums.length/2;
 
 	HashSet<Integer> set = new HashSet<Integer>();
@@ -21,8 +21,7 @@ public class Solution {
 	  answer = number;
         } else {
 	  answer = set.size();
-        }
-	    
+        }    
         return answer;
     }
 }
