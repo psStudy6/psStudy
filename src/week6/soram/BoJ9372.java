@@ -26,7 +26,7 @@ public class BoJ9372 {
 				//들어오는 입력값은 모두 받아줘야 끝난다.
 				
 			}
-			sb.append(n-1+"\n");
+			sb.append(n-1+"\n");//테스트케이스 마다 국가수-1을 StringBuilder에 입력해준다.
 			
 			
 		}
