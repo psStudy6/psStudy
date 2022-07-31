@@ -95,6 +95,6 @@ Contents : This logic of my method and the side description of the method speaki
 |      |                    | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)    | [김유미]()|
 |      |                    | [나무 탈출](https://www.acmicpc.net/problem/15900)    | [김유미]()|
 | 7    | Tree, dfs          | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)   | [이종복]()|
-|      |                    | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [이종복]()|
+|      |                    | [트리순회](https://www.acmicpc.net/problem/1991)  | [이종복]()|
 |      |                    | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [공통]()|
-|      |                    | [트리순회](https://www.acmicpc.net/problem/1991)  | [공통]()|
+|      |                    | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [공통]()|
