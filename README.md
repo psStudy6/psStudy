@@ -90,7 +90,11 @@ Contents : This logic of my method and the side description of the method speaki
 |      | [효율성 : O(n^2)-->O(n)] | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [김우진](src/week5/woojin/BoJ7795.java)|
 |      |                    | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | [정진홍](src/week5/hong/BoJ10989.java)|
 |      |                    | [더하기 사이클](https://www.acmicpc.net/problem/1110)         | [정진홍](src/week5/hong/BoJ1110.java)|
-| 6    | HashMap. TreeSet   | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322)      | [김소람]()|
+| 6    | HashMap, TreeSet   | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322)      | [김소람]()|
 |      |                    | [상근이의 여행](https://www.acmicpc.net/problem/9372)    | [김소람]()|
 |      |                    | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)    | [김유미]()|
 |      |                    | [나무 탈출](https://www.acmicpc.net/problem/15900)    | [김유미]()|
+| 7    | Tree, dfs          | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)   | [이종복]()|
+|      |                    | [트리순회](https://www.acmicpc.net/problem/1991)  | [이종복]()|
+|      |                    | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [공통]()|
+|      |                    | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [공통]()|
