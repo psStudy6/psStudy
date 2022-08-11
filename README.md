@@ -86,15 +86,20 @@ Contents : This logic of my method and the side description of the method speaki
 |      |                    | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [김유미](src/week3/yumi/Prg60057.java)|
 | 4    | Array(1, 2차원 배열) | [병든 나이트](https://www.acmicpc.net/problem/1783)   | [이종복](src/week4/jongbok/BoJ1783.java)|
 |      |                    | [참외밭](https://www.acmicpc.net/problem/2477) | [이종복](src/week4/jongbok/BoJ2477.java)|
-| 5    | Two pointers, Sliding window | [blobyum](https://www.acmicpc.net/problem/24499)      | [김우진](src/week5/woojin/BoJ24499.java)|
+| 5    | Two pointers, Sliding window | [blobyum](https://www.acmicpc.net/problem/24499) | [김우진](src/week5/woojin/BoJ24499.java)|
 |      | [효율성 : O(n^2)-->O(n)] | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [김우진](src/week5/woojin/BoJ7795.java)|
-|      |                    | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | [정진홍](src/week5/hong/BoJ10989.java)|
-|      |                    | [더하기 사이클](https://www.acmicpc.net/problem/1110)         | [정진홍](src/week5/hong/BoJ1110.java)|
-| 6    | HashMap, TreeSet   | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322)      | [김소람]()|
-|      |                    | [상근이의 여행](https://www.acmicpc.net/problem/9372)    | [김소람]()|
-|      |                    | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)    | [김유미]()|
-|      |                    | [나무 탈출](https://www.acmicpc.net/problem/15900)    | [김유미]()|
-| 7    | Tree, dfs          | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)   | [이종복]()|
-|      |                    | [트리순회](https://www.acmicpc.net/problem/1991)  | [이종복]()|
-|      |                    | [DFS와 BFS](https://www.acmicpc.net/problem/1260) | [공통]()|
-|      |                    | [단지번호붙이기](https://www.acmicpc.net/problem/2667) | [공통]()|
+|      |                    | [수 정렬하기3](https://www.acmicpc.net/problem/10989)    | [정진홍](src/week5/hong/BoJ10989.java)|
+|      |                    | [더하기 사이클](https://www.acmicpc.net/problem/1110)    | [정진홍](src/week5/hong/BoJ1110.java)|
+| 6    | HashMap, TreeSet   | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322) | [김소람](src/week6/soram/BoJ9322.java)|
+|      |                    | [상근이의 여행](https://www.acmicpc.net/problem/9372)    | [김소람](src/week6/soram/BoJ9372.java)|
+|      |                    | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)    | [김유미](src/week6/yumi/PrG1845.java)|
+|      |                    | [나무 탈출](https://www.acmicpc.net/problem/15900)       | [김유미](src/week6/yumi/BoJ15900.java)|
+| 7    | Tree, dfs          | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)| [이종복](src/week7/jongbok/BoJ11725.java)|
+|      |                    | [트리순회](https://www.acmicpc.net/problem/1991)         | [이종복](src/week7/jongbok/BoJ1991.java)|
+|      |                    | [DFS와 BFS](https://www.acmicpc.net/problem/1260)        | 공통|
+|      |                    | [단지번호붙이기](https://www.acmicpc.net/problem/2667)   | 공통|
+| 8    | Stack, Queue(자료구조) | [창고 다각형](https://www.acmicpc.net/problem/2304 ) | [김우진]()|
+|      |                    | [좋은 단어](https://www.acmicpc.net/problem/3986 )       | [김우진]()|
+|      |                    | [프린터 큐](https://www.acmicpc.net/problem/1966)        | [정진홍]()|
+|      |                    | [회전하는 큐](https://www.acmicpc.net/problem/1021)      | [정진홍]()|
+
