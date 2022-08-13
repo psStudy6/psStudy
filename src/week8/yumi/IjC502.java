@@ -10,7 +10,7 @@ import java.util.Stack;
  * 핵심 : (가 있으면 stack에 넣고 )가 나올때까지 문자 저장 안 함
  * 		 (가 없는 경우 stack.empty() 일때만 문자 저장
 */
-public class IJC502 {
+public class IjC502 {
 	
 	// 방법 1 : (가 있으면 stack에 넣고 )가 나올때까지 문자 저장 안 함
 	public static void main(String[] args) {
