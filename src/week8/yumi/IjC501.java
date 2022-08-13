@@ -9,7 +9,6 @@ import java.util.Stack;
  * 		 (())() 이것은 괄호의 쌍이 올바르게 위치하는 거지만, (()()))은 올바른 괄호가 아니다.
  * 
  * 핵심 : (를 넣고 )가 들어오면 (를 삭제한다. 다 진행 후 stack이 비어있지 않으면 안 맞음 
- * 잔디테스트
 */
 public class IjC501 {
 	public static void main(String[] args) {
