@@ -101,5 +101,5 @@ Contents : This logic of my method and the side description of the method speaki
 | 8    | Stack, Queue(자료구조) | [창고 다각형](https://www.acmicpc.net/problem/2304 ) | [김우진]()|
 |      |                    | [좋은 단어](https://www.acmicpc.net/problem/3986 )       | [김우진]()|
 |      |                    | [프린터 큐](https://www.acmicpc.net/problem/1966)        | [정진홍]()|
-|      |                    | [회전하는 큐](https://www.acmicpc.net/problem/1021)      | [정진홍]()|
+|      |                    | [괄호](https://www.acmicpc.net/problem/9012)             | [정진홍]()|
 
