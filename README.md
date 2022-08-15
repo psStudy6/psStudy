@@ -101,7 +101,7 @@ Contents : This logic of my method and the side description of the method speaki
 | Week8 | Stack, Queue(자료구조)| [창고 다각형](https://www.acmicpc.net/problem/2304 )      | 김우진 | [BoJ2304.java](src/week8/woojin/BoJ2304.java)              |
 |       |                      | [좋은 단어](https://www.acmicpc.net/problem/3986 )        | 김우진 | [BoJ3986.java](src/week8/woojin/BoJ3986.java)              |
 |       |                      | [프린터 큐](https://www.acmicpc.net/problem/1966)         | 정진홍 | [BoJ1966.java](src/week8/hong/BoJ1966.java)                |
-|       |                      | [회전하는 큐](https://www.acmicpc.net/problem/1021)       | 정진홍 | [BoJ9012.java](src/week8/hong/BoJ9012.java)                |
+|       |                      | [괄호](https://www.acmicpc.net/problem/9012)              | 정진홍 | [BoJ9012.java](src/week8/hong/BoJ9012.java)                |
 | Week9 | Sorting and Searching| [수 정렬하기](https://www.acmicpc.net/problem/2750)       | 김소람 | BoJ2750.java                                           |
 |       | (정렬, 이분검색과 결정알고리즘)| [ATM](https://www.acmicpc.net/problem/11399)      | 김소람 | BoJ11399.java                                          |
 |       |                      | [수 정렬하기 2](https://www.acmicpc.net/problem/2751)     | 김유미 | BoJ2751.java                                           |
