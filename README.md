@@ -73,33 +73,36 @@ Contents : This logic of my method and the side description of the method speaki
 ---
 ### :book: 주제와 문제
 
-| 주차 | 주제               | 문제                                                   | 풀이                                           |
-|------|--------------------|--------------------------------------------------------|------------------------------------------------|
-| 1    | String(문자열)     | [그룹 단어 체커](https://www.acmicpc.net/problem/1316) | [김유미](src/week1/yumi/GroupWordChecker.java)   |
-| 2    | String(회문문자열) | [단어 정렬](https://www.acmicpc.net/problem/1181)      | [김우진](src/week2/woojin/BoJ1181.java)|
-|      |                    | [비슷한 단어](https://www.acmicpc.net/problem/1411)    | [김우진](src/week2/woojin/BoJ1411.java)|
-|      |                    | [가장 많은 글자](https://www.acmicpc.net/problem/1371) | [정진홍](src/week2/hong/(1371번)%20가장%20많은%20글자.java)|
-|      |                    | [버그왕](https://www.acmicpc.net/problem/3447)         | [정진홍](src/week2/hong/(3447번)%20버그왕.java)|
-| 3    | Array(1, 2차원 배열) | [ROT13](https://www.acmicpc.net/problem/11655)         | [김소람](src/week3/soram/BOJ11655.java)|
-|      |                    | [피보나치 수의 개수](https://www.acmicpc.net/problem/6571) | [김소람](src/week3/soram/fibonacci.java)|
-|      |                    | [접미사 배열](https://www.acmicpc.net/problem/11656) | [김유미](src/week3/yumi/BoJ11656.java)|
-|      |                    | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [김유미](src/week3/yumi/Prg60057.java)|
-| 4    | Array(1, 2차원 배열) | [병든 나이트](https://www.acmicpc.net/problem/1783)   | [이종복](src/week4/jongbok/BoJ1783.java)|
-|      |                    | [참외밭](https://www.acmicpc.net/problem/2477) | [이종복](src/week4/jongbok/BoJ2477.java)|
-| 5    | Two pointers, Sliding window | [blobyum](https://www.acmicpc.net/problem/24499) | [김우진](src/week5/woojin/BoJ24499.java)|
-|      | [효율성 : O(n^2)-->O(n)] | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    | [김우진](src/week5/woojin/BoJ7795.java)|
-|      |                    | [수 정렬하기3](https://www.acmicpc.net/problem/10989)    | [정진홍](src/week5/hong/BoJ10989.java)|
-|      |                    | [더하기 사이클](https://www.acmicpc.net/problem/1110)    | [정진홍](src/week5/hong/BoJ1110.java)|
-| 6    | HashMap, TreeSet   | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322) | [김소람](src/week6/soram/BoJ9322.java)|
-|      |                    | [상근이의 여행](https://www.acmicpc.net/problem/9372)    | [김소람](src/week6/soram/BoJ9372.java)|
-|      |                    | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)    | [김유미](src/week6/yumi/PrG1845.java)|
-|      |                    | [나무 탈출](https://www.acmicpc.net/problem/15900)       | [김유미](src/week6/yumi/BoJ15900.java)|
-| 7    | Tree, dfs          | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)| [이종복](src/week7/jongbok/BoJ11725.java)|
-|      |                    | [트리순회](https://www.acmicpc.net/problem/1991)         | [이종복](src/week7/jongbok/BoJ1991.java)|
-|      |                    | [DFS와 BFS](https://www.acmicpc.net/problem/1260)        | 공통|
-|      |                    | [단지번호붙이기](https://www.acmicpc.net/problem/2667)   | 공통|
-| 8    | Stack, Queue(자료구조) | [창고 다각형](https://www.acmicpc.net/problem/2304 ) | [김우진]()|
-|      |                    | [좋은 단어](https://www.acmicpc.net/problem/3986 )       | [김우진]()|
-|      |                    | [프린터 큐](https://www.acmicpc.net/problem/1966)        | [정진홍]()|
-|      |                    | [괄호](https://www.acmicpc.net/problem/9012)             | [정진홍]()|
-
+| 주차  | 주제                 | 문제                                                     | 발표자 | 풀이                                                        |
+|-------|---------------------|----------------------------------------------------------|-----   |------------------------------------------------------------|
+| Week1 | String(문자열)       | [그룹 단어 체커](https://www.acmicpc.net/problem/1316)    | 김유미 | [BoJ1316.java](src/week1/yumi/GroupWordChecker.java)       |
+| Week2 | String(회문문자열)   | [단어 정렬](https://www.acmicpc.net/problem/1181)         | 김우진 | [BoJ1181.java](src/week2/woojin/BoJ1181.java)              |
+|       |                     | [비슷한 단어](https://www.acmicpc.net/problem/1411)       | 김우진 | [BoJ1411.java](src/week2/woojin/BoJ1411.java)              |
+|       |                     | [가장 많은 글자](https://www.acmicpc.net/problem/1371)    | 정진홍 | [BoJ1371.java](src/week2/hong/(1371번)%20가장%20많은%20글자.java) |
+|       |                     | [버그왕](https://www.acmicpc.net/problem/3447)            | 정진홍 | [BoJ3447.java](src/week2/hong/(3447번)%20버그왕.java)          |
+| Week3 | Array(1, 2차원 배열) | [ROT13](https://www.acmicpc.net/problem/11655)           | 김소람 | [BoJ11655.java](src/week3/soram/BOJ11655.java)             |
+|       |                     | [피보나치 수의 개수](https://www.acmicpc.net/problem/6571) | 김소람 | [BoJ6571.java](src/week3/soram/fibonacci.java)             |
+|       |                     | [접미사 배열](https://www.acmicpc.net/problem/11656)      | 김유미 | [BoJ11656.java](src/week3/yumi/BoJ11656.java)              |
+|       |                     | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | 김유미 | [PrG60057.java](src/week3/yumi/Prg60057.java)|
+| Week4 | Array(1, 2차원 배열) | [병든 나이트](https://www.acmicpc.net/problem/1783)       | 이종복 | [BoJ1783.java](src/week4/jongbok/BoJ1783.java)             |
+|       |                     | [참외밭](https://www.acmicpc.net/problem/2477)            | 이종복 | [BoJ2477.java](src/week4/jongbok/BoJ2477.java)             |
+| Week5 | Two pointers, Sliding window | [blobyum](https://www.acmicpc.net/problem/24499) | 김우진 | [BoJ24499.java](src/week5/woojin/BoJ24499.java)            |
+|       | [효율성 : O(n^2)-->O(n)]     | [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)| 김우진 | [BoJ7795.java](src/week5/woojin/BoJ7795.java)  |
+|       |                              | [수 정렬하기3](https://www.acmicpc.net/problem/10989)| 정진홍 | [BoJ10989.java](src/week5/hong/BoJ10989.java)           |
+|       |                              | [더하기 사이클](https://www.acmicpc.net/problem/1110)| 정진홍 | [BoJ1110.java](src/week5/hong/BoJ1110.java)             |
+| Week6 | HashMap, TreeSet    | [철벽 보안 알고리즘](https://www.acmicpc.net/problem/9322)  | 김소람 | [BoJ9322.java](src/week6/soram/BoJ9322.java)              |
+|       |                     | [상근이의 여행](https://www.acmicpc.net/problem/9372)       | 김소람 | [BoJ9372.java](src/week6/soram/BoJ9372.java)              |
+|       |                     | [폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)| 김유미 | [PrG1845.java](src/week6/yumi/PrG1845.java)   |
+|       |                     | [나무 탈출](https://www.acmicpc.net/problem/15900)         | 김유미 | [BoJ15900.java](src/week6/yumi/BoJ15900.java)              |
+| Week7 | Tree, dfs           | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)   | 이종복 | [BoJ11725.java](src/week7/jongbok/BoJ11725.java)           |
+|       |                     | [트리순회](https://www.acmicpc.net/problem/1991)           | 이종복 | [BoJ1991.java](src/week7/jongbok/BoJ1991.java)             |
+|       |                     | [DFS와 BFS](https://www.acmicpc.net/problem/1260)          | 공통  | 공통                                                        |
+|       |                     | [단지번호붙이기](https://www.acmicpc.net/problem/2667)      | 공통  | 공통                                                        |
+| Week8 | Stack, Queue(자료구조)| [창고 다각형](https://www.acmicpc.net/problem/2304 )      | 김우진 | [BoJ2304.java](src/week8/woojin/BoJ2304.java)              |
+|       |                      | [좋은 단어](https://www.acmicpc.net/problem/3986 )        | 김우진 | [BoJ3986.java](src/week8/woojin/BoJ3986.java)              |
+|       |                      | [프린터 큐](https://www.acmicpc.net/problem/1966)         | 정진홍 | [BoJ1966.java](src/week8/hong/BoJ1966.java)                |
+|       |                      | [회전하는 큐](https://www.acmicpc.net/problem/1021)       | 정진홍 | [BoJ9012.java](src/week8/hong/BoJ9012.java)                |
+| Week9 | Sorting and Searching| [수 정렬하기](https://www.acmicpc.net/problem/2750)       | 김소람 | [BoJ2750.java]()                                           |
+|       | (정렬, 이분검색과 결정알고리즘)| [ATM](https://www.acmicpc.net/problem/11399)      | 김소람 | [BoJ11399.java]()                                          |
+|       |                      | [수 정렬하기 2](https://www.acmicpc.net/problem/2751)     | 김유미 | [BoJ2751.java]()                                           |
+|       |                      | [파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686) | 김유미 | [PrG17686.java]()                     |
