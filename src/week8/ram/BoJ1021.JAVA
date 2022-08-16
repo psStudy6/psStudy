@@ -1,50 +1,42 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
- 
-import java.util.LinkedList;
-import java.util.StringTokenizer;
- 
+package week8.ram;
+import java.util.*;
+import java.io.*;
+/* 회전하는 큐(양방향 순환 큐) 
+ * 1.첫 번째 원소 뽑기
+ * 2.왼쪽으로 원소를 한칸씩 이동시키기
+ * 3.오른쪽으로 원소를 한칸씩 이동시키기
+ */
 public class BoJ1021 {
- 
-	public static void main(String[] args) throws IOException {
-		
+	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		LinkedList<Integer> deque = new LinkedList<Integer>();
+		int N = Integer.parseInt(st.nextToken());//큐의 크기(1 ~ N)
+		int M = Integer.parseInt(st.nextToken());//뽑으려는 숫자의 개수
 		
-		int count = 0;	// 2, 3번 연산 횟수 누적 합 변수
+		LinkedList<Integer> deque = new LinkedList<Integer>(); //연결리스트를 이용한 덱
+		int count = 0; 
 		
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int N = Integer.parseInt(st.nextToken());	// 큐의 크기(1 ~ N)
-		int M = Integer.parseInt(st.nextToken());	// 뽑으려는 숫자의 개수
-		
-		// 1부터 N까지 덱에 담아둔다.
-		for(int i = 1; i <= N; i++) {
+		for(int i=1;i<=N;i++) {
 			deque.offer(i);
 		}
-		
-		int[] seq = new int[M];	// 뽑고자 하는 수를 담은 배열
-		
-		st = new StringTokenizer(br.readLine(), " ");
-		for(int i = 0; i < M; i++) {
-			seq[i] = Integer.parseInt(st.nextToken());
+		int[] seq = new int[M];//뽑고자 하는 수를 담은 배열
+		st=new StringTokenizer(br.readLine());
+		for(int i=0;i<M;i++) {
+			seq[i]=Integer.parseInt(st.nextToken());
 		}
+		/*
+		 *  만약 현재 덱의 원소가 짝수 개라면 중간 지점을 
+		 *  현재 덱의 절반 크기에서 -1 감소시킨다. 
+		 *  
+		 *  {1, 2, 3, 4} 일 때, 2를 중간지점으로 하면
+		 *  인덱스는 1이기 때문
+		 */
 		
-		
-		for(int i = 0; i < M; i++) {
-			
-			
-			// 덱에서 뽑고자 하는 숫자의 위치(index) 찾기 
+		for(int i=0;i<M;i++) {
+			//덱에서 뽑고자 하는 숫자의 위치(index) 찾기
 			int target_idx = deque.indexOf(seq[i]);
 			int half_idx;
-			/*
-			 *  만약 현재 덱의 원소가 짝수 개라면 중간 지점을 
-			 *  현재 덱의 절반 크기에서 -1 감소시킨다. 
-			 *  
-			 *  {1, 2, 3, 4} 일 때, 2를 중간지점으로 하면
-			 *  인덱스는 1이기 때문
-			 */
 			if(deque.size() % 2 == 0) {
 				half_idx = deque.size() / 2 - 1;
 			}
