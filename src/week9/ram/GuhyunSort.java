@@ -3,7 +3,7 @@ import java.util.*;
 /* 버블 정렬(ver1)
  * 
  */
-public class BubbleSort {
+public class Sort {
 	
 	//a[idx1]와 a[idx2]의 값을 바꾼다.
 	public static void swap(int[] a,int idx1,int idx2) {
