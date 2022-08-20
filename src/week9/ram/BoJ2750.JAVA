@@ -6,7 +6,7 @@ import java.io.*;
  * 모두 구현해보기
  */
 
-public class Main {
+public class BoJ2750 {
 	static void swap(int[] a,int aa,int bb) {
 		int tmp = a[bb];
 		a[bb] = a[aa];
@@ -60,7 +60,7 @@ public class Main {
 		}
 	}
 	static void selectionSort(int[] a,int size) {
-		/* 가장 작은 값으 요소를 맨 앞으로 옮긴다.
+		/* 가장 작은 값의 요소를 맨 앞으로 옮긴다.
 		 * 두번째로 작은 요소를 선택하여 정렬
 		 * 아직 정렬하지 않은 부분에서 값이 가장 작은 요소를 선택하고 아직 정렬하지 않은 부분의 첫번째 요소와 교환
 		 * 
@@ -94,8 +94,11 @@ public class Main {
 		int pl=left;//왼쪽 커서
 		int pr=right;//오른쪽 커서
 		int x=a[(pl+pr)/2];//피벗(가운데 위치의 값)
-
-
+		
+		System.out.printf("a[%d]~a[%d]:{",left,right);
+		for(int i=left;i<right;i++)
+			System.out.printf("%d,",a[i]);
+		System.out.printf("%d}\n",a[right]);
 		do {
 			while(a[pl]<x) pl++;//피벗보다 큰 값을 찾지못한 경우 pl을 계속 증가시킴
 			while(a[pr]>x) pr--;//피벗보다 작은 값을 찾지못한 경우 pr을 계속 증가시킴
@@ -107,9 +110,10 @@ public class Main {
 		if(left<pr) quickSort(a,left,pr);
 		if(pl<right) quickSort(a,pl,right);
 	}
-    static void arrSort(int[] arr){
-        Arrays.sort(arr);
-    }
+	 static void arrSort(int[] arr){
+	        Arrays.sort(arr);
+	    }
+		
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = Integer.parseInt(br.readLine());
@@ -120,8 +124,7 @@ public class Main {
 			a[i] = Integer.parseInt(br.readLine());
 			
 		}
-         //arrSort(a);
-        //quickSort(a,0,a.length-1);
+		selectionSort(a,a.length);
 		for(int i=0;i<a.length;i++) sb.append(a[i]).append("\n");
 		System.out.println(sb);
 		
