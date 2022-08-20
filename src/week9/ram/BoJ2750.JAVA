@@ -96,9 +96,11 @@ public class BoJ2750 {
 		int x=a[(pl+pr)/2];//피벗(가운데 위치의 값)
 		
 		System.out.printf("a[%d]~a[%d]:{",left,right);
+		/*
 		for(int i=left;i<right;i++)
 			System.out.printf("%d,",a[i]);
 		System.out.printf("%d}\n",a[right]);
+		*/
 		do {
 			while(a[pl]<x) pl++;//피벗보다 큰 값을 찾지못한 경우 pl을 계속 증가시킴
 			while(a[pr]>x) pr--;//피벗보다 작은 값을 찾지못한 경우 pr을 계속 증가시킴
