@@ -94,9 +94,9 @@ public class BoJ2750 {
 		int pl=left;//왼쪽 커서
 		int pr=right;//오른쪽 커서
 		int x=a[(pl+pr)/2];//피벗(가운데 위치의 값)
-		
-		System.out.printf("a[%d]~a[%d]:{",left,right);
 		/*
+		System.out.printf("a[%d]~a[%d]:{",left,right);
+		
 		for(int i=left;i<right;i++)
 			System.out.printf("%d,",a[i]);
 		System.out.printf("%d}\n",a[right]);
