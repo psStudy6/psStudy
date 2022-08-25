@@ -106,3 +106,7 @@ Contents : This logic of my method and the side description of the method speaki
 |       | (정렬, 이분검색과 결정알고리즘)| [ATM](https://www.acmicpc.net/problem/11399)      | 김소람 | [BoJ11399.java](src/week9/ram/BoJ11399.JAVA)            |
 |       |                      | [수 정렬하기 2](https://www.acmicpc.net/problem/2751)     | 김유미 | [BoJ2751.java](src/week9/yumi/BoJ2751.java)              |
 |       |                      | [파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686)| 김유미|[PrG17686.java](src/week9/yumi/PrG17686.java)|
+|Week10 | Recursive, Tree      |[퇴사](https://www.acmicpc.net/problem/14501)             | 이종복 |[BoJ14501.java] |
+|       | Graph(DFS, BFS 기초) |[스타트와 링크](https://www.acmicpc.net/problem/14889)     | 이종복 |[BoJ14889.java] |
+|       |                      |[완전 이진 트리](https://www.acmicpc.net/problem/9934)    | 공통 |[BoJ9934.java] |
+|       |                      |[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)     | 공통 |[BoJ11729.java] |
