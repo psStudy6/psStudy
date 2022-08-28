@@ -2,7 +2,7 @@
 
 ### :calendar: 스터디 기간
 2022.06.26 ~ (미정)</br>
-매주 일요일 오전 10시 ~ 12시
+매주 일요일 오전 11시 ~ 13시
 
 
 
@@ -96,8 +96,8 @@ Contents : This logic of my method and the side description of the method speaki
 |       |                     | [나무 탈출](https://www.acmicpc.net/problem/15900)         | 김유미 | [BoJ15900.java](src/week6/yumi/BoJ15900.java)              |
 | Week7 | Tree, dfs           | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725)   | 이종복 | [BoJ11725.java](src/week7/jongbok/BoJ11725.java)           |
 |       |                     | [트리순회](https://www.acmicpc.net/problem/1991)           | 이종복 | [BoJ1991.java](src/week7/jongbok/BoJ1991.java)             |
-|       |                     | [DFS와 BFS](https://www.acmicpc.net/problem/1260)          | 공통  | 공통                                                        |
-|       |                     | [단지번호붙이기](https://www.acmicpc.net/problem/2667)      | 공통  | 공통                                                        |
+|       |                     | [DFS와 BFS](https://www.acmicpc.net/problem/1260)          | 공통  | BoJ1260.java                                                |
+|       |                     | [단지번호붙이기](https://www.acmicpc.net/problem/2667)      | 공통  | BoJ2667.java                                                |
 | Week8 | Stack, Queue(자료구조)| [창고 다각형](https://www.acmicpc.net/problem/2304 )      | 김우진 | [BoJ2304.java](src/week8/woojin/BoJ2304.java)              |
 |       |                      | [좋은 단어](https://www.acmicpc.net/problem/3986 )        | 김우진 | [BoJ3986.java](src/week8/woojin/BoJ3986.java)              |
 |       |                      | [프린터 큐](https://www.acmicpc.net/problem/1966)         | 정진홍 | [BoJ1966.java](src/week8/hong/BoJ1966.java)                |
@@ -106,7 +106,7 @@ Contents : This logic of my method and the side description of the method speaki
 |       | (정렬, 이분검색과 결정알고리즘)| [ATM](https://www.acmicpc.net/problem/11399)      | 김소람 | [BoJ11399.java](src/week9/ram/BoJ11399.JAVA)            |
 |       |                      | [수 정렬하기 2](https://www.acmicpc.net/problem/2751)     | 김유미 | [BoJ2751.java](src/week9/yumi/BoJ2751.java)              |
 |       |                      | [파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686)| 김유미|[PrG17686.java](src/week9/yumi/PrG17686.java)|
-|Week10 | Recursive, Tree      |[퇴사](https://www.acmicpc.net/problem/14501)             | 이종복 |[BoJ14501.java] |
-|       | Graph(DFS, BFS 기초) |[스타트와 링크](https://www.acmicpc.net/problem/14889)     | 이종복 |[BoJ14889.java] |
-|       |                      |[완전 이진 트리](https://www.acmicpc.net/problem/9934)    | 공통 |[BoJ9934.java] |
-|       |                      |[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)     | 공통 |[BoJ11729.java] |
+|Week10 | Recursive, Tree      |[퇴사](https://www.acmicpc.net/problem/14501)             | 이종복 |[BoJ14501.java](src/week10/jongbok/BoJ14501.java)          |
+|       | Graph(DFS, BFS 기초) |[스타트와 링크](https://www.acmicpc.net/problem/14889)     | 이종복 |[BoJ14889.java](src/week10/jongbok/BoJ14889.java)          |
+|       |                      |[완전 이진 트리](https://www.acmicpc.net/problem/9934)     | 공통   |BoJ9934.java                                              |
+|       |                      |[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | 공통 |BoJ11729.java                                              |
