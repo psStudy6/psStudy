@@ -1,45 +1,33 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
- 
+package week10.ram;
+import java.util.Scanner;
+/* 하노이탑
+ * 재귀가 '가장 작은 단위'가 될 때까지 재귀호출
+ * 가장 작은 단위까지 호출되면 연산 실행
+ * Hanoi(n)=2Hanoi(n-1)+1
+ */
 public class BoJ11729 {
- 
-	public static StringBuilder sb = new StringBuilder();
- 
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
- 
-		int N = Integer.parseInt(br.readLine());
- 
-		sb.append((int) (Math.pow(2, N) - 1)).append('\n');
- 
-		Hanoi(N, 1, 2, 3);
-		System.out.println(sb);
- 
+	static int cnt = 0;
+	static StringBuilder sb = new StringBuilder();
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		move(N, 1, 3, 2);//temp = 3
+		System.out.println(cnt);
+		System.out.println(sb.toString());
 	}
- 
-	/*
-		N : 원판의 개수 
-		start : 출발지 
-		mid : 옮기기 위해 이동해야 장소 
-		to : 목적지
-	 */
- 
-	public static void Hanoi(int N, int start, int mid, int to) {
-		// 이동할 원반의 수가 1개라면?
+
+	static void move(int N, int from, int to, int temp) {
 		if (N == 1) {
-			sb.append(start + " " + to + "\n");
+			cnt++;
+			sb.append(from + " " + to + "\n");
 			return;
+		} else {
+			move(N - 1, from, temp, to);
+			sb.append(from + " " + to + "\n");
+			cnt++;
+			move(N - 1, temp, to, from);
 		}
- 
-		// A -> C로 옮긴다고 가정할 떄,
-		// STEP 1 : N-1개를 A에서 B로 이동 (= start 지점의 N-1개의 원판을 mid 지점으로 옮긴다.)
-		Hanoi(N - 1, start, to, mid);
-    
-		// STEP 2 : 1개를 A에서 C로 이동 (= start 지점의 N번째 원판을 to지점으로 옮긴다.)
-		sb.append(start + " " + to + "\n");
-    
-		// STEP 3 : N-1개를 B에서 C로 이동 (= mid 지점의 N-1개의 원판을 to 지점으로 옮긴다.)
-		Hanoi(N - 1, mid, start, to);
 	}
+
 }
