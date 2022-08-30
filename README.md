@@ -110,3 +110,7 @@ Contents : This logic of my method and the side description of the method speaki
 |       | Graph(DFS, BFS 기초) |[스타트와 링크](https://www.acmicpc.net/problem/14889)     | 이종복 |[BoJ14889.java](src/week10/jongbok/BoJ14889.java)          |
 |       |                      |[완전 이진 트리](https://www.acmicpc.net/problem/9934)     | 공통   |BoJ9934.java                                              |
 |       |                      |[하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729) | 공통 |BoJ11729.java                                              |
+|Week11 | Recursive, Tree      |[값이 k인 트리 노드의 깊이](https://www.acmicpc.net/problem/25511)             | 정진홍 |BoJ25511.java          |
+|       | Graph(DFS, BFS 기초) |[빠른 숫자 탐색](https://www.acmicpc.net/problem/25416)     | 정진홍 |BoJ25416.java        |
+|       |                      |[양](https://www.acmicpc.net/problem/3184)     | 김우진 |BoJ3184.java                                              |
+|       |                      |[게임 맵 최단 거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) | 김우진 |PrG1844.java                                              |
