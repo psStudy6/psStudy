@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
  
-public class Main {
+public class BoJ3184 {
      
     static int R, C;
     static int[] dx = {-1, 1, 0, 0};
