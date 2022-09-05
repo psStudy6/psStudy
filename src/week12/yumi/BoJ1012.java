@@ -19,40 +19,50 @@ import java.io.*;
  */
 public class BoJ1012
 {
-	public static int[][] pos = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+	public static int[][] pos = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}}; // 사방향 - 오하좌상
 	
 	public int solution(int[][] arr, int m, int n, int carvage) {
 		int cnt = 0;
 		boolean[][] visited = new boolean[m][n];
+		
 		for (int x = 0; x < m; x++) {
 			for (int y = 0; y < n; y++) {
+				// 배추가 아니거나 방문한 배추일 경우 탐색 안 함
 				if (arr[x][y] != 1 || visited[x][y]) {
 					continue;
 				}
+				// 방문 체크 후 dfs 시작
 				visited[x][y] = true;
-				dfs(arr, x, y, visited) ;
+				dfs(arr, x, y, visited);
+				// 배추영역당 지렁이 1마리
 				cnt++;
 			}
 		}
 		return cnt;
 	}
 	
+	// dfs : 배추의 영역 탐색 
 	public void dfs (int[][] arr, int x, int y, boolean[][] visited) {
 		int m = arr.length;
 		int n = arr[0].length;
+		// 4방향 탐색
 		for (int i = 0; i < pos.length; i++) {
 			int posX = x + pos[i][0];
 			int posY = y + pos[i][1];
-			if (!isRange (posX, posY, m, n) || 				visited[posX][posY]) {
+			// 범위가 아니거나 이미 방문한 지역은 패스
+			if (!isRange (posX, posY, m, n) || visited[posX][posY]) {
 				continue;
 			}
+			// 방문 체크
 			visited[posX][posY] = true;
+			// 인접한 배추가 있다면 해당 배추의 인접한 4방향 탐색 
 			if (arr[posX][posY] == 1) {
 				dfs (arr, posX, posY, visited);
 			}
 		}
 	}
 	
+	// 범위 체크
 	public boolean isRange(int posX, int posY, int m, int n) {
 		if (posX < 0 || posX >= m || posY < 0 || posY >= n) {
 			return false;
