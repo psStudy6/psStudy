@@ -211,7 +211,7 @@ Contents : This logic of my method and the side description of the method speaki
 		</tr>
 		<tr>
 			<td rowspan="4"> Week8 </td>
-			<td rowspan="4"> Stack, Queue(자료구조"> </a></td>
+			<td rowspan="4"> Stack, Queue(자료구조) </td>
 			<td><a href="https://www.acmicpc.net/problem/2304 "> 창고 다각형 </a></td>
 			<td> 김우진 </td>
 			<td><a href="src/week8/woojin/BoJ2304.java"> BoJ2304.java </a></td>
