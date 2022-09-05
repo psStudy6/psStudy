@@ -170,7 +170,7 @@ Contents : This logic of my method and the side description of the method speaki
 			<td rowspan="4"> HashMap, TreeSet <br>(해쉬, 정렬지원 Set) </td>
 			<td><a href="https://www.acmicpc.net/problem/9322"> 철벽 보안 알고리즘 </a></td>
 			<td> 김소람 </td>
-            <td><a href="src/week6/soram/BoJ9322.java"> BoJ9322.java </a></td>
+            		<td><a href="src/week6/soram/BoJ9322.java"> BoJ9322.java </a></td>
 		</tr>
 		<tr>
 			<td><a href="https://www.acmicpc.net/problem/9372"> 상근이의 여행 </a></td>
@@ -297,7 +297,7 @@ Contents : This logic of my method and the side description of the method speaki
 			<td> 김우진 </td>
 			<td><a href="src/week11/woojin/PrG1844.java"> PrG1844.java </a></td>
 		</tr>
-    <tr>
+    		<tr>
 			<td rowspan="4"> Week12 </td>
 			<td rowspan="4"> Recursive, Tree <br>Graph(DFS, BFS 기초) 2 </td>
 			<td><a href="https://www.acmicpc.net/problem/1325"> 효율적인 해킹</a></td>
