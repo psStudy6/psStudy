@@ -145,7 +145,7 @@ Contents : This logic of my method and the side description of the method speaki
 		</tr>
 		<tr>
 			<td rowspan="4"> Week5 </td>
-			<td rowspan="4"> Two pointers, Sliding window <br>효율성 : O(n^2)-->O(n)] </td>
+			<td rowspan="4"> Two pointers, Sliding window <br>효율성 : O(n^2)-->O(n) </td>
 			<td><a href="https://www.acmicpc.net/problem/24499"> blobyum </a></td>
 			<td> 김우진 </td>
 			<td><a href="src/week5/woojin/BoJ24499.java"> BoJ24499.java </a></td>
