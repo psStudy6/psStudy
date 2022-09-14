@@ -321,9 +321,9 @@ Contents : This logic of my method and the side description of the method speaki
 		<td rowspan="5" align="center"> Recursive, Tree <br>Graph(DFS, BFS 기초) 2 </td>
 	</tr>
 	<tr>
-		<td><a href="https://www.acmicpc.net/problem/25511"> 효율적인 해킹</a></td>
+		<td><a href="https://www.acmicpc.net/problem/1325"> 효율적인 해킹</a></td>
 		<td> 김소람 </td>
-		<td> BoJ25511.java </td>
+		<td> BoJ1325.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2606"> 바이러스 </a></td>
