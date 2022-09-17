@@ -21,7 +21,7 @@ public class BoJ1325 {
 	static int[] computer;
 	static int N,M,max=0;
 	//static int = Integer.MIN_VALUE;
-	//0이 아니라 이렇게 하는 이유 아시는 분?
+	//0이 아니라 이렇게 왜?
 	
 	static void dfs(int sizak) {
 		visited[sizak]=true;
