@@ -90,7 +90,6 @@ public class BoJ1325 {
 	}
 
 }
-/* 
 package week12.ram;
 
 import java.io.BufferedReader;
@@ -112,43 +111,42 @@ import java.util.StringTokenizer;
  */
 public class BoJ1325 {
 	static ArrayList<Integer>[] arr;
+	static boolean[] visited;
 	static int[] computer;
-	static int N,M;
+	static int N,M,count;
 	static int max= Integer.MIN_VALUE;
-	//0이 아니라 이렇게 하는 이유 아시는 분?
+	//0이 아니라 이렇게..?
 	
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuffer sb = new StringBuffer();
 		StringTokenizer st=new StringTokenizer(br.readLine());
-		//BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		N = Integer.parseInt(st.nextToken());
 		M = Integer.parseInt(st.nextToken());
 		
-		computer = new int[N+1];
 		arr = new ArrayList[N+1];
-		//visited = new boolean[N+1];
+		computer=new int[N+1];
+		
 		for(int i=0;i<=N;i++) {
 			arr[i]=new ArrayList();
 		}
+		
 		for(int i=0;i<M;i++) {
 			st=new StringTokenizer(br.readLine());
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
-			arr[a].add(b);
+			arr[b].add(a);
 			//a가 b를 신뢰하면 b에서 a로 해킹방향이 가능하단 얘기
 			//1차원 배열 arr의 index는 컴퓨터 번호를 뜻한다.
 		}
 		for(int i=1;i<=N;i++) {
-			//visited = new boolean[N+1];
+			visited=new boolean[N+1];
+			count=0;
 			bfs(i);
-			//System.out.println(computer[i]);
-		}
-		for(int i=1;i<=N;i++) {
-			max=Math.max(max, computer[i]);
-			//System.out.println(computer[i]);
+			computer[i]=count;
+			max=Math.max(max,count);
 		}
 		
 		/* 이전 for문으로 찾은 값을 토대로 해킹최대컴퓨터를 모두 찾아냄 
@@ -164,16 +162,15 @@ public class BoJ1325 {
 	}
     static void bfs(int in) {
 		Queue<Integer> q = new LinkedList<>();
-		boolean[] visited = new boolean[N+1];
-		q.add(in);
 		visited[in]=true;
+		q.add(in);
 		while(!q.isEmpty()) {
 			int v=q.poll();
 			for(int next:arr[v]) {
                 if(!visited[next]){
+                	q.add(next);
                     visited[next]=true;
-                    q.add(next);
-                    computer[next]++;
+                    count++;
                 }
 				
 			}
@@ -182,4 +179,4 @@ public class BoJ1325 {
 	
 
 }
-*/
+
