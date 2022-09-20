@@ -3,9 +3,7 @@ package week12.yumi;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
@@ -36,6 +34,12 @@ class Graph {
         if(!node2.adj.contains(node1)) {
             node2.adj.add(node1);
         }
+    }
+    
+    void clearMark() {
+    	for (int i = 1; i < nodes.length; i++) {
+			nodes[i].mark = false;
+		}
     }
     
     int dfs(int idx) {
@@ -70,17 +74,20 @@ public class BoJ1325 {
 			graph.addEdge(Integer.parseInt(st.nextToken()), Integer.parseInt(st.nextToken()));
 		}
 		int max = Integer.MIN_VALUE;
-		List<Integer> li = new ArrayList<>();
-		for (int i = 1; i < args.length; i++) {
+		StringBuffer sb = new StringBuffer();
+		for (int i = 1; i < n; i++) {
 			int cnt = graph.dfs(i);
+			graph.clearMark();
 			if(max >  cnt) {
 				continue;
 			}
 			if (max < cnt) {
-				li.clear();
+				max = cnt;
+				sb = new StringBuffer();
 			}
-			li.add(i);
+			sb.append(i).append(" ");
 		}
-		System.out.println();
+		br.close();
+		System.out.println(sb.toString());
 	}
 }
