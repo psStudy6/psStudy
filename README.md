@@ -323,7 +323,7 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1325"> 효율적인 해킹</a></td>
 		<td> 김소람 </td>
-		<td> BoJ25511.java </td>
+		<td> BoJ1325.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2606"> 바이러스 </a></td>
