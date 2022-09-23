@@ -360,7 +360,7 @@ Contents : This logic of my method and the side description of the method speaki
 		<td> BoJ16953.java </td>
 	</tr>
 	<tr>
-		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/5585"> 거스름돈 </a></td>
+		<td><a href="https://www.acmicpc.net/problem/5585"> 거스름돈 </a></td>
 		<td> 정진홍 </td>
 		<td> PrG5585.java </td>
 	</tr>
