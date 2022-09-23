@@ -323,21 +323,45 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1325"> 효율적인 해킹</a></td>
 		<td> 김소람 </td>
-		<td> BoJ1325.java </td>
+		<td><a href="src/week12/ram/BoJ1325.java"> BoJ1325.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2606"> 바이러스 </a></td>
 		<td> 김소람 </td>
-		<td> BoJ2606.java </td>
+		<td><a href="src/week12/ram/BoJ2606.java"> BoJ2606.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2468"> 안전 영역 </a></td>
 		<td> 김유미 </td>
-		<td> BoJ2468.java</td>
+		<td><a href="src/week12/yumi/BoJ2468.java"> BoJ2468.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1012"> 유기농 배추 </a></td>
 		<td> 김유미 </td>
-		<td> BoJ1012.java </td>
+		<td><a href="src/week12/yumi/BoJ1012.java"> BoJ1012.java </a></td>
+	</tr>
+	<tr>
+		<td rowspan="5" align="center"> Week13 </td>
+		<td rowspan="5" align="center"> Greedy Algorithm </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/1026"> 보물 </a></td>
+		<td> 김우진 </td>
+		<td> BoJ1026.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/1946"> 신입사원 </a></td>
+		<td> 김우진 </td>
+		<td> BoJ1946.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/16953"> A → B </a></td>
+		<td> 정진홍 </td>
+		<td> BoJ16953.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/5585"> 거스름돈 </a></td>
+		<td> 정진홍 </td>
+		<td> PrG5585.java </td>
 	</tr>
 </table>
