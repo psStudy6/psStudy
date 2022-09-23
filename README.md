@@ -323,12 +323,12 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1325"> 효율적인 해킹</a></td>
 		<td> 김소람 </td>
-		<td><a href="src/week12/ram/BoJ1325.java"> BoJ1325.java </a></td>
+		<td><a href="src/week12/ram/BoJ1325.JAVA"> BoJ1325.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2606"> 바이러스 </a></td>
 		<td> 김소람 </td>
-		<td><a href="src/week12/ram/BoJ2606.java"> BoJ2606.java </a></td>
+		<td><a href="src/week12/ram/BoJ2606.JAVA"> BoJ2606.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2468"> 안전 영역 </a></td>
