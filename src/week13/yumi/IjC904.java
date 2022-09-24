@@ -45,10 +45,12 @@ public class IjC904 {
 					break;
 				}
 				// day에 속할 경우 offer
-				pQ.offer(list.get(idx).money);
+					pQ.offer(list.get(idx).money);
 			}
 			// max ~ 해당 기간 중 가장 큰 money 추출
-			sum += pQ.poll();
+			if (!pQ.isEmpty()) {
+				sum += pQ.poll();
+			}
 		}
 		return sum;
 	}
