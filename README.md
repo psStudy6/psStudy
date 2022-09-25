@@ -347,21 +347,21 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1026"> 보물 </a></td>
 		<td> 김우진 </td>
-		<td> BoJ1026.java </td>
+		<td><a href="src/week13/woojin/BoJ1026.java"> BoJ1026.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1946"> 신입사원 </a></td>
 		<td> 김우진 </td>
-		<td> BoJ1946.java </td>
+		<td><a href="src/week13/woojin/BoJ1946.java"> BoJ1946.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/16953"> A → B </a></td>
 		<td> 정진홍 </td>
-		<td> BoJ16953.java </td>
+		<td><a href="src/week13/hong/BoJ16953.java"> BoJ16953.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/5585"> 거스름돈 </a></td>
 		<td> 정진홍 </td>
-		<td> PrG5585.java </td>
+		<td><a href="src/week13/hong/BoJ5585.java"> BoJ5585.java </a></td>
 	</tr>
 </table>
