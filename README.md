@@ -364,4 +364,28 @@ Contents : This logic of my method and the side description of the method speaki
 		<td> 정진홍 </td>
 		<td><a href="src/week13/hong/BoJ5585.java"> BoJ5585.java </a></td>
 	</tr>
+	<tr>
+		<td rowspan="5" align="center"> Week14 </td>
+		<td rowspan="5" align="center"> 종합1 </td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/76502"> 괄호 회전하기 </a></td>
+		<td> 김우진 </td>
+		<td><a href=""> PrG76502.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42842"> 카펫 </a></td>
+		<td> 김우진 </td>
+		<td><a href=""> PrG42842.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/17680"> 캐시 </a></td>
+		<td> 김유미 </td>
+		<td><a href="src/week14/yumi/PrG17680.java"> PrG17680.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/64065"> 튜플 </a></td>
+		<td> 김유미 </td>
+		<td><a href="src/week14/yumi/PrG64065.java"> PrG64065.java </a></td>
+	</tr>
 </table>
