@@ -2,7 +2,8 @@ package breaktime;
 import java.util.*;
 /* 최대 수입 스케쥴(우선순위큐 응용)
  * FIFO 구조를 가진 큐이지만 우선순위가 높은 데이터가 먼저 나간다.
- * time이 0일 때부터 접근하는 이유 : 최대한 적은 날을 소모하는 값을 넣어야 최대 값을 얻을 수 있디
+ * time이 0일 때부터 접근하는 이유 : 최대한 적은 날을 소모하는 값을 넣어야 최대 값을 얻을 수 있다
+ * 그리디 알고리즘 사용
  */
 
 class Lecture implements Comparable<Lecture> {
