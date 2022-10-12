@@ -388,4 +388,28 @@ Contents : This logic of my method and the side description of the method speaki
 		<td> 김유미 </td>
 		<td><a href="src/week14/yumi/PrG64065.java"> PrG64065.java </a></td>
 	</tr>
+	<tr>
+		<td rowspan="5" align="center"> Week15 </td>
+		<td rowspan="5" align="center"> 종합2 </td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/87946"> 피로도 </a></td>
+		<td> 김우진 </td>
+		<td><a href=""> PrG87946.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12973"> 짝지어 제거하기 </a></td>
+		<td> 김우진 </td>
+		<td><a href=""> PrG12973.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42885"> 구명보트 </a></td>
+		<td> 김유미 </td>
+		<td><a href="src/week15/yumi/PrG42885.java"> PrG42885.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12985"> 예상 대진표 </a></td>
+		<td> 김유미 </td>
+		<td><a href="src/week15/yumi/PrG12985.java"> PrG12985.java </a></td>
+	</tr>
 </table>
