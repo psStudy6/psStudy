@@ -371,12 +371,12 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/76502"> 괄호 회전하기 </a></td>
 		<td> 김우진 </td>
-		<td><a href=""> PrG76502.java </a></td>
+		<td><a href="src/week14/woojin/PrG_76502.java"> PrG76502.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/42842"> 카펫 </a></td>
 		<td> 김우진 </td>
-		<td><a href=""> PrG42842.java </a></td>
+		<td><a href="src/week14/woojin/PrG_42842.java"> PrG42842.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/17680"> 캐시 </a></td>
