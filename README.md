@@ -412,4 +412,28 @@ Contents : This logic of my method and the side description of the method speaki
 		<td> 김유미 </td>
 		<td><a href="src/week15/yumi/PrG12985.java"> PrG12985.java </a></td>
 	</tr>
+	<tr>
+		<td rowspan="5" align="center"> Week16 </td>
+		<td rowspan="5" align="center"> Greedy Algorithm, dynamic programming </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/16493"> 최대 페이지 수 </a></td>
+		<td> 김소람 </td>
+		<td> BoJ16493.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/1238"> 파티 </a></td>
+		<td> 김소람 </td>
+		<td> BoJ1238.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/13305"> 주유소 </a></td>
+		<td> 김유미 </td>
+		<td> BoJ13305.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/2225"> 합분해 </a></td>
+		<td> 김유미 </td>
+		<td> BoJ2225.java </td>
+	</tr>
 </table>
