@@ -414,7 +414,7 @@ Contents : This logic of my method and the side description of the method speaki
 	</tr>
 	<tr>
 		<td rowspan="5" align="center"> Week16 </td>
-		<td rowspan="5" align="center"> Greedy Algorithm, dynamic programming </td>
+		<td rowspan="5" align="center"> Greedy Algorithm, <br>dynamic programming </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/16493"> 최대 페이지 수 </a></td>
