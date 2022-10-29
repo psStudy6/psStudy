@@ -57,3 +57,53 @@ public class IjC708 {
 	
 
 }
+/*
+package week9.ram;
+import java.util.*;
+import java.io.*;
+
+public class Main {
+	private int solution(int h,int s){
+		int level=0;
+		Queue<Integer> q = new LinkedList();
+		//왜 큐를 링크드 리스트로 구현할까 
+		//뭐가 더 큰 범위일까
+		int[] choice = {-1,1,5};
+		boolean[] checked = new boolean[100001];
+		q.offer(h);
+		while(!q.isEmpty()){
+			int len = q.size();
+			for(int i=0;i<len;i++){
+				int tmp = q.poll();
+				for(int c : choice){
+					int time = tmp+c;
+					if(time == s) { //도착한다면
+						return level+1;
+					}
+					else if(time>=1&&time<=10000&&!checked[time]){
+						System.out.println(time+" "+level);
+						checked[time]=true;
+						q.offer(time);
+					}
+					else
+						;
+				}
+			}
+			level++;
+			System.out.println("level:"+level);
+
+
+		}
+		return -1;
+	}
+	public static void main(String[] args){
+		Scanner in=new Scanner(System.in);
+		Main T = new Main();
+		int input1 = in.nextInt();
+		int input2 = in.nextInt();
+
+		System.out.println(T.solution(input1,input2));
+		return ;
+	}
+}
+*/
