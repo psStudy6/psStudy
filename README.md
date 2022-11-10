@@ -10,7 +10,7 @@
 
 ---
 ### :blush: 스터디 참여 인원
-* [김소람](https://github.com/soram1119)
+* [김소람](https://github.com/piriram)
 * [김우진](https://github.com/dnwlsrla40)
 * [김유미](https://github.com/gkfgran5037)
 * [정진홍](https://github.com/hongcoding94)
