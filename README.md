@@ -419,21 +419,45 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/16493"> 최대 페이지 수 </a></td>
 		<td> 김소람 </td>
-		<td> BoJ16493.java </td>
+		<td><a href="src/week16/ram/BoJ16493.JAVA"> BoJ16493.java </td>
 	</tr>
 	<tr>
-		<td><a href="https://www.acmicpc.net/problem/1238"> 파티 </a></td>
+		<td><a href="https://www.acmicpc.net/problem/2579"> 계단 오르기 </a></td>
 		<td> 김소람 </td>
-		<td> BoJ1238.java </td>
+		<td><a href="src/week16/ram/BoJ2579.JAVA"> BoJ1238.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/13305"> 주유소 </a></td>
 		<td> 김유미 </td>
-		<td> BoJ13305.java </td>
+		<td><a href="src/week16/yumi/BoJ13305.java"> BoJ13305.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2225"> 합분해 </a></td>
 		<td> 김유미 </td>
-		<td> BoJ2225.java </td>
+		<td><a href="src/week16/yumi/BoJ2225.java"> BoJ2225.java </td>
+	</tr>
+	<tr>
+		<td rowspan="5" align="center"> Week17 </td>
+		<td rowspan="5" align="center"> dynamic programming </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/2193"> 이친수 </a></td>
+		<td> 김우진 </td>
+		<td> BoJ2193.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/9655"> 돌게임 </a></td>
+		<td> 김우진 </td>
+		<td> BoJ9655.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/12865"> 평범한 배낭 </a></td>
+		<td> 공통 </td>
+		<td> BoJ12865.java </td>
+	</tr>
+	<tr>
+		<td><a href="https://www.acmicpc.net/problem/9465"> 스티커 </a></td>
+		<td> 공통 </td>
+		<td> BoJ9465.java </td>
 	</tr>
 </table>
