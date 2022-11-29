@@ -465,22 +465,22 @@ Contents : This logic of my method and the side description of the method speaki
 		<td rowspan="5" align="center"> DFS, BFS 활용 </td>
 	</tr>
 	<tr>
-		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165">  </a></td>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165"> 타겟넘버 </a></td>
 		<td> 김소람 </td>
 		<td><a href=""> PrG43165.java </td>
 	</tr>
 	<tr>
-		<td><a href="https://www.acmicpc.net/problem/1261">  </a></td>
+		<td><a href="https://www.acmicpc.net/problem/1261"> 알고스팟 </a></td>
 		<td> 김소람 </td>
 		<td><a href=""> BoJ1261.java </td>
 	</tr>
 	<tr>
-		<td><a href="https://www.acmicpc.net/problem/2178">  </a></td>
+		<td><a href="https://www.acmicpc.net/problem/2178"> 미로탐색 </a></td>
 		<td> 김유미 </td>
 		<td><a href=""> BoJ2178.java </td>
 	</tr>
 	<tr>
-		<td><a href="https://www.acmicpc.net/problem/13913">  </a></td>
+		<td><a href="https://www.acmicpc.net/problem/13913"> 숨바꼭질4 </a></td>
 		<td> 김유미 </td>
 		<td><a href=""> BoJ13913.java </td>
 	</tr>
