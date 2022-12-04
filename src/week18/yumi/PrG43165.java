@@ -1,4 +1,4 @@
-package week18;
+package week18.yumi;
 
 public class PrG43165 {
     public int solution(int[] numbers, int target) {
