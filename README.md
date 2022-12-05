@@ -467,21 +467,45 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/43165"> 타겟넘버 </a></td>
 		<td> 김소람 </td>
-		<td><a href=""> PrG43165.java </td>
+		<td><a href="src/week18/ram/PrG43165.java"> PrG43165.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/1261"> 알고스팟 </a></td>
 		<td> 김소람 </td>
-		<td><a href=""> BoJ1261.java </td>
+		<td><a href="src/week18/ram/BoJ1261.JAVA"> BoJ1261.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/2178"> 미로탐색 </a></td>
 		<td> 김유미 </td>
-		<td><a href=""> BoJ2178.java </td>
+		<td><a href="src/week18/yumi/BoJ2178.java"> BoJ2178.java </td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/13913"> 숨바꼭질4 </a></td>
 		<td> 김유미 </td>
-		<td><a href=""> BoJ13913.java </td>
+		<td><a href="src/week18/yumi/BoJ13913.java"> BoJ13913.java </td>
+	</tr>
+	<tr>
+		<td rowspan="5" align="center"> Week19 </td>
+		<td rowspan="5" align="center"> DFS, BFS 활용2 </td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/81302"> 거리두기 확인하기 </a></td>
+		<td> 김우진 </td>
+		<td><a href=""> PrG81302.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="">  </a></td>
+		<td> 김우진 </td>
+		<td><a href=""> .java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12978"> 배달 </a></td>
+		<td> 공통 </td>
+		<td><a href=""> PrG12978.java </a></td>
+	</tr>
+	<tr>
+		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/84021"> 퍼즐 조각 채우기 </a></td>
+		<td> 공통 </td>
+		<td><a href=""> PrG84021.java </a></td>
 	</tr>
 </table>
