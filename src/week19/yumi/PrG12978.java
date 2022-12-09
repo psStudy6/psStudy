@@ -2,6 +2,8 @@ package week19.yumi;
 
 /**
  * 프로그래머스 12978 배달
+ * 
+ * 다익스트라 알고리즘 - 인접행렬 사용
  */
 public class PrG12978 {
 
@@ -17,11 +19,13 @@ public class PrG12978 {
 
     public int solution(int N, int[][] road, int K) {
         townCnt = N;
+        int inf = 100_000_000;
         int[][] distances = new int[townCnt][townCnt];
         // 직행값 세팅
         for (int i = 0; i < road.length; i++) {
             int country1 = road[i][0] - 1;
             int country2 = road[i][1] - 1;
+            // 동일한 루트, 다른 도로일 경우 작은 값 세팅
             if (distances[country1][country2] != 0
                     && road[i][2] > distances[country1][country2]) {
                 continue;
@@ -34,13 +38,13 @@ public class PrG12978 {
                 if (i == j || distances[i][j] > 0) {
                     continue;
                 }
-                distances[i][j] = 100_000_000;
+                distances[i][j] = inf;
             }
         }
         return delivery(dijkstra(distances, 0), K);
     }
 
-    // 다익스트라 알고리즘
+    // 다익스트라 알고리즘 - 인접행렬
     private int[] dijkstra(int[][] distances, int start) {
         int[] minDistance = new int[townCnt];
         boolean[] visited = new boolean[townCnt];
@@ -87,6 +91,7 @@ public class PrG12978 {
     private int delivery(int[] minDistance, int possibleDistance) {
         int count = 0;
         for (int distance : minDistance) {
+            System.out.print(distance + ", ");
             // 배달 가능할 경우
             if (distance <= possibleDistance) {
                 count++;
