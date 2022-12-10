@@ -9,7 +9,7 @@ class Solution {
         int[][] map = new int[N+1][N+1];
         int[] dist = new int[N+1];
         PriorityQueue<int[]> pQueue = new PriorityQueue<>((o1, o2) -> {
-            return Integer.compare(o1[0], o2[0]);
+            return Integer.compare(o1[0], o2[0]);//배열 0번째 기준으로 오름차순 정리
         });
         
 실행 결과
