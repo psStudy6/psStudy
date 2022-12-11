@@ -494,9 +494,9 @@ Contents : This logic of my method and the side description of the method speaki
 		<td><a href=""> PrG81302.java </a></td>
 	</tr>
 	<tr>
-		<td><a href="">  </a></td>
+		<td><a href="https://www.acmicpc.net/problem/12761"> 돌다리 </a></td>
 		<td> 김우진 </td>
-		<td><a href=""> .java </a></td>
+		<td><a href=""> BoJ12761.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12978"> 배달 </a></td>
