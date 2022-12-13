@@ -453,12 +453,12 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/12865"> 평범한 배낭 </a></td>
 		<td> 공통 </td>
-		<td> BoJ12865.java </td>
+		<td><a href="src/week17/ram/BoJ12865.JAVA"> BoJ12865.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/9465"> 스티커 </a></td>
 		<td> 공통 </td>
-		<td> BoJ9465.java </td>
+		<td><a href="src/week17/yumi/BoJ9465.java"> BoJ9465.java </a></td>
 	</tr>
 	<tr>
 		<td rowspan="5" align="center"> Week18 </td>
@@ -491,21 +491,21 @@ Contents : This logic of my method and the side description of the method speaki
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/81302"> 거리두기 확인하기 </a></td>
 		<td> 김우진 </td>
-		<td><a href=""> PrG81302.java </a></td>
+		<td><a href="src/week19/woojin/PrG81302.java"> PrG81302.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://www.acmicpc.net/problem/12761"> 돌다리 </a></td>
 		<td> 김우진 </td>
-		<td><a href=""> BoJ12761.java </a></td>
+		<td><a href="src/week19/woojin/BoJ12761.java"> BoJ12761.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/12978"> 배달 </a></td>
 		<td> 공통 </td>
-		<td><a href=""> PrG12978.java </a></td>
+		<td><a href="src/week19/ram/PrG12978.JAVA"> PrG12978.java </a></td>
 	</tr>
 	<tr>
 		<td><a href="https://school.programmers.co.kr/learn/courses/30/lessons/84021"> 퍼즐 조각 채우기 </a></td>
 		<td> 공통 </td>
-		<td><a href=""> PrG84021.java </a></td>
+		<td><a href="src/week19/yumi/PrG84021.java"> PrG84021.java </a></td>
 	</tr>
 </table>
